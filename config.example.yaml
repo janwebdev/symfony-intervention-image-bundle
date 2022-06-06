@@ -1,0 +1,2 @@
+intervention_image:
+    driver: "gd" # or "imagick"
