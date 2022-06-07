@@ -47,7 +47,7 @@ intervention_image:
 
 ### 4. Basic usage
 
-inject new service `Janwebdev\ImageBundle\Image` in your code and start working with image.
+inject new service `Janwebdev\ImageBundle\Image`, which is private by default, in your code and start working with image.
 ```php
 <?php
 // ...

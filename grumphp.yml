@@ -10,13 +10,16 @@ grumphp:
             warning_severity: ~
             ignore_patterns:
                 - tests/
+                - var/
             triggered_by: [ php ]
         phpstan:
             autoload_file: ~
             configuration: ~
             level: 1
             force_patterns: [ ]
-            ignore_patterns: [ ]
+            ignore_patterns:
+                - tests/
+                - var/
             triggered_by: [ 'php' ]
             memory_limit: "-1"
             use_grumphp_paths: true

@@ -1,7 +1,8 @@
 services:
-    janwebdev_intervention_image:
+    janwebdev.intervention.image:
         class: Janwebdev\ImageBundle\Image
         arguments: ["@intervention.image.factory"]
+        public: false
 
     intervention.image.factory:
         class: Intervention\Image\ImageManagerStatic
